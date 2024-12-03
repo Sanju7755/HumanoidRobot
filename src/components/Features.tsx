@@ -41,7 +41,7 @@ function Features() {
         },
       ];
   return (
-    <section className="h-[40rem] rounded-md flex flex-col antialiased bg-white dark:bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
+    <section className="h-[40rem] rounded-md flex flex-col antialiased bg-black dark:bg-grid-white/[0.05] items-center justify-center relative overflow-hidden">
     <h1 className="text-7xl font-bold bg-gradient-to-t from-black to-slate-300 bg-clip-text text-transparent">Features</h1>
       <InfiniteMovingCards className="mt-10"
         items={testimonials}

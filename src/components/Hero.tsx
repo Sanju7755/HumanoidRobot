@@ -13,7 +13,7 @@ function Hero() {
         backgroundColor="black"
         className="flex items-center flex-col justify-center px-2 md:px-10 py-4 w-full h-full sm:px-10"
       >
-        <h2 className="text-white text-2xl md:text-6xl font-bold text-center sm:pt-10 pt-16">
+        <h2 className="text-white dark:text-white text-2xl md:text-6xl font-bold text-center sm:pt-10 pt-16">
           <TextGenerateEffect words={words}/>
         </h2>
         <p className="text-3xl shadow-md font-semibold md:text-3xl max-w-xl mt-6 text-center bg-gradient-to-t from-[#00c9ff] to-[#92fe9d] bg-clip-text text-transparent">

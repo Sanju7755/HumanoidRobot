@@ -21,9 +21,9 @@ export default function RootLayout({
       <div className="relative w-full flex items-center justify-center black">
       <Navbar/>
         </div>
-        
         {children}
         </body>
+        
     </html>
   );
 }

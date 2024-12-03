@@ -2,6 +2,7 @@ import Appl from "@/components/Appl";
 import Features from "@/components/Features";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
+import Model from "@/components/Model";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
       <Hero/>
       <Appl/>
+      <Model/>
       <Features/>
       <Footer/>
     </main>

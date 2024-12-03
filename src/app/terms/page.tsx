@@ -2,17 +2,17 @@ import React from 'react'
 
 function page() {
   return (
-    <div className="bg-white h-auto">
-        <div className="text-center font-sans text-4xl text-black font-semibold pt-32 px-20">
+    <div className="bg-white dark:bg-black h-auto">
+        <div className="text-center font-sans text-4xl text-black dark:text-slate-300 font-semibold pt-32 px-20">
             <h1>AndroHumanoid Robot Terms of Use</h1>
-            <p className="mt-4 text-3xl text-gray-800 font-normal mb-4">Legal Information & Notices</p>
+            <p className="mt-4 text-3xl text-gray-800 dark:text-gray-300 font-normal mb-4">Legal Information & Notices</p>
             <hr className="border-gray-500 h-1 shadow-lg mx-20"></hr>
-            <p className="mt-8 text-lg font-normal text-gray-800 text-left px-20">Effective September 2024</p>
+            <p className="mt-8 text-lg font-normal text-gray-800 dark:text-gray-300 text-left px-20">Effective September 2024</p>
         </div>
-        <div className="text-black px-40 mt-4 lg:px-40  md:px-40">
+        <div className="text-black dark:text-white px-40 mt-4 lg:px-40  md:px-40">
             <p>Welcome to the Androhumanoid Robot website. By accessing or using our Website, you agree to comply with and be bound by the following terms and conditions ("Terms of Use"). If you do not agree to these terms, please do not use our Website.</p>
         </div>
-        <div className="text-black mt-4 px-40">
+        <div className="text-black dark:text-white mt-4 px-40">
             <h1 className="text-xl font-bold my-2">Legal Agreement</h1>
             <p>These Terms constitute a legal agreement between you and Company. By accessing and using the Website, you acknowledge that you have read, understood, and agree to be bound by these Terms and any additional terms and conditions referenced herein.</p>
             <h1 className="text-xl font-bold my-2">Privacy</h1>

@@ -11,13 +11,13 @@ function page() {
         <meta name="description" content="Explore the functions of the Androhumanoid robot, designed to engage, communicate, and interact in various environments." />
       </Head>
 
-      <main className="bg-white text-gray-800">
-        <section className="max-w-7xl mx-auto py-16 pt-32 px-4 sm:px-6 lg:px-8">
+      <main className="bg-white dark:bg-black text-gray-800">
+        <section className="max-w-7xl mx-auto py-16 pt-32 px-4 sm:px-6 lg:px-8 ">
           <div className="text-center">
-            <h1 className="text-4xl font-extrabold text-gray-900">
+            <h1 className="text-4xl font-extrabold text-gray-900 dark:text-white">
               Androhumanoid Robot Functions
             </h1>
-            <p className="mt-4 text-lg leading-6 text-gray-600">
+            <p className="mt-4 text-lg leading-6 text-gray-600 dark:text-gray-300">
               Discover the innovative features that make the Androhumanoid robot the perfect companion for various environments.
             </p>
           </div>

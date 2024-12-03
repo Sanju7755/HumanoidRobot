@@ -2,13 +2,13 @@ import React from 'react'
 
 function page() {
   return (
-    <div className="bg-white h-auto">
-        <div className="text-4xl md:text-4xl sm:text-4xl text-slate-900 font-bold py-16 pt-32 px-4  text-center ">
+    <div className="bg-white dark:bg-black h-auto">
+        <div className="text-4xl md:text-4xl sm:text-4xl text-slate-900 dark:text-slate-400 font-bold py-16 pt-32 px-4  text-center ">
             <h1>AndroHumanoid Privacy Policy</h1>
             <p className="text-gray-600 font-semibold text-lg my-2 px-12 lg:px-8">AndroHumanoid is committed to your privacy. Read our customer Privacy Policy for a clear explanation of how we collect, use, disclose, transfer, and store your information.</p>
             <span><hr></hr></span>
         </div>
-        <div className="text-sm text-justify text-slate-900 px-12 pb-4">
+        <div className="text-sm text-justify text-slate-900 dark:text-white px-12 pb-4">
         <ul>
             <li className="mb-2">
                 <h1 className="text-lg font-bold">Introduction</h1>

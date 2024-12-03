@@ -10,9 +10,9 @@ export function Appl() {
   const words=["HumanoidX","NeoDroid"]
 
   return (
-    <div className="w-full h-full py-20">
+    <div className="w-full h-full bg-white dark:bg-black py-20">
       <h2 className="max-w-7xl pl-4 mx-auto text-5xl md:text-5xl font-bold text-neutral-800 sm:text-5xl dark:text-neutral-200 font-sans">
-      <FlipWords words={words} />
+      <FlipWords  words={words} />
       Robot
       </h2>
       <Carousel items={cards} />
@@ -27,9 +27,9 @@ const DummyContent = () => {
         return (
           <div
             key={"dummy-content" + index}
-            className="bg-[#F5F5F7] p-8 md:p-14 rounded-3xl mb-4"
+            className="bg-[#F5F5F7] dark:bg-black p-8 md:p-14 rounded-3xl mb-4"
           >
-            <p className="text-neutral-600 text-base md:text-2xl font-sans max-w-3xl mx-auto text-justify">
+            <p className="text-neutral-600 dark:text-white text-base md:text-2xl font-sans max-w-3xl mx-auto text-justify">
               <span className="font-bold bg-gradient-to-t from-[#87ceeb] to-[#003366] bg-clip-text text-transparent">
               Androhumanoid Robot: Revolutionizing Customer Engagement and Marketing
               </span>{" "}
